@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.cad{
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+}
+.botao{
+    height: 50%;
+    width: 100%;
+    justify-self: center;
+    margin: 150px;
+    margin-top: 30px;
+}
+.con{
+    height: 60%;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    background-color: aquamarine;
+    border: solid;
+    margin: 20px;
+    padding: 10px;
+}
+#nome{
+    width: 300px;
+    margin: 20px;
+    height: 30px;
+    border-radius: 20px;
+}
+#v{
+    margin: 50px;
+    border: solid;
+}
+#cadastro{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+}
+#sorteio{
+    height: 30px;
+    width: 100px;
+    border-radius: 16px;
+}
